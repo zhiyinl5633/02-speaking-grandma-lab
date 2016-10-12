@@ -9,7 +9,7 @@
 ## Instructions
 
 1. Fork and clone this lab.
-2. Run the test suite using either the `rspec` or `learn` command. You'll be coding your solution in `grandma.rb`.
+2. Run the test suite using the `rspec` command. You'll be coding your solution in `grandma.rb`.
 3. Write a `speak_to_grandma` method. 
 	* The method should take in a string argument containing a phrase and check to see if the phrase is written in all uppercase: if it isn't, then grandma can't hear you. She should then respond with (return) `HUH?! SPEAK UP, SONNY!`.
 	* If you shout at her (i.e. call the method with a string argument containing a phrase that *is* all uppercase, then she *can* hear you (or at least she thinks that she can) and should respond with (return) `NO, NOT SINCE 1938!`.
@@ -44,6 +44,3 @@ There are many methods on the [String class](http://www.ruby-doc.org/core-2.1.4/
 Which one can we use to check that the argument string (i.e. what you're saying to Grandma) is all uppercase? You can use the comparison operator (`==`) to determine if the string you pass into your method call as an argument *matches* ("is equal to") that same string, but in uppercase form.
 
 On that same note, we can also use the comparison operator to check and see if the string matches `"I LOVE YOU GRANDMA!"`
-
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/speaking-grandma' title='Speak to Grandma'>Speak to Grandma</a> on Learn.co and start learning to code for free.</p>
